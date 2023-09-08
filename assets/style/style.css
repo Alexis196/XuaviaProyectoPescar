@@ -251,6 +251,9 @@ footer{
     }
 }
 @media(max-width: 754px) {
+    .title-xuavia{
+        font-size: 70px;
+    }
     .cards-reco{
         justify-content: center;
     }
