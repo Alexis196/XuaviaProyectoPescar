@@ -222,7 +222,6 @@ footer{
 @media(max-width: 991px) {
     .navbar{
         height: 100%;
-        padding-bottom: 10px;
     }
     .navbar-nav{
         --bs-nav-link-padding-y: 0;
