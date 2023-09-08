@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Xuavia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a href="#"> <img class="logo" src="./assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mascoters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                    </ul>
+                    <button class="btn-login">Iniciar sesión</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="carouselExample" class="carousel slide">
+            <h1 class="title-xuavia">XUAVIA</h1>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carrusel1.png" class="img" alt="persona-mascota">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel2.jpg" class="img" alt="persona-mascota">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrusel3.png" class="img" alt="persona-mascota">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
+                <span class="visually-hidden prev">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+        <section class="section-recomendaciones">
+            <h3>Algunas de las recomendaciones que recibimos por parte de nuestra comunidad</h3>
+            <div id="card-reco"></div>
+            <div class="cards-reco">
+                <div class="card-user">
+                    <div class="info-user">
+                        <img class="foto-perfil" src="./assets/img/usuario.png" alt="foto-perfil">
+                        <p>Nombre usuario</p>
+                    </div>
+                    <p class="recomendacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat hic
+                        aspernatur illum, dicta libero est beatae error itaque repellendus quidem architecto vero!
+                        Officiis tenetur autem voluptates dolores neque inventore.</p>
+                </div>
+                <div class="card-user">
+                    <div class="info-user">
+                        <img class="foto-perfil" src="./assets/img/usuario.png" alt="foto-perfil">
+                        <p>Nombre usuario</p>
+                    </div>
+                    <p class="recomendacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat hic
+                        aspernatur illum, dicta libero est beatae error itaque repellendus quidem architecto vero!
+                        Officiis tenetur autem voluptates dolores neque inventore.</p>
+                </div>
+                <div class="card-user">
+                    <div class="info-user">
+                        <img class="foto-perfil" src="./assets/img/usuario.png" alt="foto-perfil">
+                        <p>Nombre usuario</p>
+                    </div>
+                    <p class="recomendacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat hic
+                        aspernatur illum, dicta libero est beatae error itaque repellendus quidem architecto vero!
+                        Officiis tenetur autem voluptates dolores neque inventore.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="tecnologias">
+            <div class="tarjeta-tec">
+                <img src="./assets/img/html-5.png" alt="logo-html">
+                <p>Utilizamos HTML para realizar la estructura del proyecto</p>
+            </div>
+            <div class="tarjeta-tec">
+                <img src="./assets/img/css-3.png" alt="logo-css">
+                <p>Para darle algunos estilos particulares CSS</p>
+            </div>
+            <div class="tarjeta-tec">
+                <img src="./assets/img/Bootstrap_logo.svg.png" alt="Bootstrap_logo">
+                <p>Para los estilos generales y responsive design nos inclinamos por Bootstrap ya que nos facilita mucho el trabajo responsive</p>
+            </div>
+            <div class="tarjeta-tec">
+                <img src="./assets/img/trello_icon_146085.png" alt="trello_icon">
+                <p>En cuanto a las divisiones de tareas usamos Trello, para llevar un orden de las mismas, así como también cuáles se cumplieron y cuales faltaban realizar</p>
+            </div>
+        </div>
+        <div class="equipo">
+            <h3>Desarrolladores de este equipo</h3>
+            <p>⭐Camila Del Valle 🐶</p>
+            <p>💫Antonella Orsi 🦁</p>
+            <p>✨Agustin Videla 🐹</p>
+            <p>🌟Exequiel Martinez 🐱</p>
+            <p>✨Alexis Franco 🐼</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/cards.js"></script>
+</body>
+
+</html>
