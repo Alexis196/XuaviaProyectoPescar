@@ -256,6 +256,9 @@ footer{
     }
 }
 @media(max-width: 475px) {
+    .title-xuavia{
+        font-size: 60px;
+    }
     .tecnologias{
         width: 325px;
     }
