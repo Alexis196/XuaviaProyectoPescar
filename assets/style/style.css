@@ -266,3 +266,11 @@ footer{
         width: 325px;
     }
 }
+@media(max-width: 275px) {
+    .title-xuavia{
+        font-size: 40px;
+    }
+    .tecnologias{
+        width: 260px;
+    }
+}
