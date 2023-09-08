@@ -208,6 +208,10 @@ footer{
     color: #fff;
     align-items: center;
 }
+#html{
+    width: 64px;
+    height: 45px;
+}
 
 .equipo{
     display: flex;
