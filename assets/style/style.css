@@ -148,6 +148,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
     border-top: 1px dashed rgb(74, 194, 194)
 }
 
@@ -160,7 +161,6 @@ p {
 }
 
 .card-user {
-    margin: 1rem 0;
     padding: .5rem;
     width: 30%;
     display: flex;
@@ -354,6 +354,7 @@ ul.tags li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .mascoters {
@@ -462,5 +463,12 @@ ul.tags li a:hover {
 
     .tecnologias {
         width: 260px;
+    }
+    .card-user {
+        width: 310px;
+        flex-direction: column;
+    }
+    .seccion-mascoters{
+        width: 100%;
     }
 }
