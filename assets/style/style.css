@@ -186,7 +186,7 @@ p{
 footer{
     padding: 1rem;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 3rem;
     flex-wrap: wrap;
     border-top: 1px solid rgb(74, 194, 194);
@@ -220,6 +220,18 @@ footer{
     color: #fff;
     font: 20px;
     font-weight: 500;
+}
+.form-contact{
+    width: 320px;
+    color: #fff;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+textarea{
+    resize:none
 }
 
 /* ---------Responsive---------- */
