@@ -13,7 +13,7 @@ p {
     height: 75px;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: .5rem;
     border-bottom: 1px solid rgb(74, 194, 194);
 }
 
@@ -104,7 +104,7 @@ p {
 /* ------------------------ */
 .carousel {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
 }
 
 .carousel-inner {
@@ -118,7 +118,7 @@ p {
 .img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .prev,
