@@ -161,12 +161,14 @@ p {
 
 .card-user {
     margin: 1rem 0;
+    padding: .5rem;
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     border: 1px dashed rgb(74, 194, 194);
+    box-shadow: 1px 3px 7px #c5c5c5;
 }
 
 .info-user {
@@ -182,6 +184,11 @@ p {
 
 .info-user p {
     margin: 0;
+}
+.info-user a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
 }
 
 .foto-perfil {
@@ -283,7 +290,7 @@ textarea {
 
 .enviar {
     width: 120px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(74, 194, 194);;
     background-color: transparent;
     color: rgb(74, 194, 194);
     font-weight: 700;
@@ -296,6 +303,94 @@ textarea {
     border: 2px solid #000;
     background-color: rgb(74, 194, 194);
     color: #000;
+}
+
+/* ---------mascoters-------- */
+/* Main */
+
+.mini-navbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+    }
+
+/* Tags de categorías*/
+ul.tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    text-align: center;
+}
+
+ul.tags li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.tags li a {    
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font: 500px;
+}
+
+ul.tags li a:hover {
+    padding: 9px;
+    border: 1px solid rgb(74, 194, 194);
+    }
+
+.tags {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+/* Tarjetas */
+
+
+.seccion-mascoters {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mascoters {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+/*Paginación*/
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color: black;
+    font: 500px;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+    padding:9px 19px;
+    border: 1px solid rgb(74, 194, 194);
+    }
+
+.paginacion ul li .active {
+    padding:9px 19px;
+    border: 1px solid rgb(74, 194, 194);
 }
 
 /* ---------Responsive---------- */
@@ -334,6 +429,9 @@ textarea {
 
     .recomendacion {
         width: auto;
+    }
+    .seccion-mascoters{
+        justify-content: center;
     }
 }
 
