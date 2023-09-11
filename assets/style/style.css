@@ -444,6 +444,9 @@ ul.tags li a:hover {
     .cards-reco {
         justify-content: center;
     }
+    footer{
+        justify-content: center;
+    }
 }
 
 @media(max-width: 475px) {
