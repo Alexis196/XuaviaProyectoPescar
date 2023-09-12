@@ -570,6 +570,7 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .mision,
     .comunidad,
     .contacto,
@@ -590,7 +591,8 @@ p {
     }
 
     .card-user {
-        width: 310px;
+        width: 90%;
+        margin: auto;
         flex-direction: column;
     }
 
