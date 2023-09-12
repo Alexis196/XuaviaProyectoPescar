@@ -449,6 +449,14 @@ ul.tags li a:hover {
     align-items: center;
     gap: 1rem;
 }
+.mision,
+.comunidad,
+.contacto,
+.nos,
+.mascoters,
+.pasos p{
+    text-align: start;
+}
 
 .banner-img {
     object-fit: cover;
