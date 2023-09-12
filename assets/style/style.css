@@ -185,7 +185,8 @@ p {
 .info-user p {
     margin: 0;
 }
-.info-user a{
+
+.info-user a {
     text-decoration: none;
     color: #000;
     font-weight: 400;
@@ -231,6 +232,7 @@ footer {
     color: #fff;
     align-items: center;
 }
+
 .todas-tarjetas {
     display: flex;
     flex-direction: column;
@@ -277,7 +279,8 @@ input {
     padding-left: 5px;
     border-bottom: 1px solid rgb(74, 194, 194);
 }
-.campos-input::placeholder{
+
+.campos-input::placeholder {
     color: #fff;
 }
 
@@ -290,7 +293,8 @@ textarea {
 
 .enviar {
     width: 120px;
-    border: 2px solid rgb(74, 194, 194);;
+    border: 2px solid rgb(74, 194, 194);
+    ;
     background-color: transparent;
     color: rgb(74, 194, 194);
     font-weight: 700;
@@ -313,7 +317,7 @@ textarea {
     align-items: flex-end;
     justify-content: center;
     padding: 1rem;
-    }
+}
 
 /* Tags de categorías*/
 ul.tags {
@@ -329,7 +333,7 @@ ul.tags li {
     margin-right: 10px;
 }
 
-ul.tags li a {    
+ul.tags li a {
     text-decoration: none;
     padding: 10px;
     color: black;
@@ -339,17 +343,17 @@ ul.tags li a {
 ul.tags li a:hover {
     padding: 9px;
     border: 1px solid rgb(74, 194, 194);
-    }
+}
 
 .tags {
-    text-align: center; 
-    margin-top: 10px; 
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Tarjetas */
 
 
-.seccion-mascoters {
+.seccion-mascoter {
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -357,41 +361,135 @@ ul.tags li a:hover {
     gap: 1rem;
 }
 
-.mascoters {
+.mascoter {
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
 }
+
 /*Paginación*/
 
 .paginacion ul {
-	list-style:none;
-	text-align: center;
+    list-style: none;
+    text-align: center;
 }
 
 .paginacion ul li {
-	display:inline-block;
-	margin-right:10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .paginacion ul li a {
-	display:block;
-	padding:10px 20px;
-	color: black;
+    display: block;
+    padding: 10px 20px;
+    color: black;
     font: 500px;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .paginacion ul li a:hover {
-    padding:9px 19px;
+    padding: 9px 19px;
     border: 1px solid rgb(74, 194, 194);
-    }
+}
 
 .paginacion ul li .active {
-    padding:9px 19px;
+    padding: 9px 19px;
     border: 1px solid rgb(74, 194, 194);
+}
+
+/* --------nosotros-------- */
+.main-nosotros {
+    min-height: 90vh;
+    background: url(../img/v1008-25-a.jpg);
+    background-repeat: no-repeat;
+}
+
+.title-nosotros {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+}
+
+.nos,
+.mascoters,
+.pasos {
+    width: 55%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 35px;
+    text-align: end;
+    border: 1px dashed rgb(74, 194, 194);
+    padding: 1rem;
+    display: flex;
+    box-shadow: 5px 5px 20px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mision,
+.comunidad,
+.contacto {
+    width: 55%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 40%;
+    text-align: center;
+    border: 1px dashed rgba(73, 196, 114, 0.63);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 5px 5px 20px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banner-img {
+    object-fit: cover;
+}
+
+.contacto {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-align: left;
+
+}
+
+p {
+
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 /* ---------Responsive---------- */
@@ -431,8 +529,21 @@ ul.tags li a:hover {
     .recomendacion {
         width: auto;
     }
-    .seccion-mascoters{
+
+    .seccion-mascoters {
         justify-content: center;
+    }
+
+    .mision,
+    .comunidad,
+    .contacto,
+    .nos,
+    .mascoters,
+    .pasos {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        margin: 1rem auto;
     }
 }
 
@@ -444,7 +555,8 @@ ul.tags li a:hover {
     .cards-reco {
         justify-content: center;
     }
-    footer{
+
+    footer {
         justify-content: center;
     }
 }
@@ -453,9 +565,18 @@ ul.tags li a:hover {
     .title-xuavia {
         font-size: 60px;
     }
-    .todas-tarjetas{
+
+    .todas-tarjetas {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .mision,
+    .comunidad,
+    .contacto,
+    .nos,
+    .mascoters,
+    .pasos {
+        flex-direction: column;
     }
 }
 
@@ -467,11 +588,13 @@ ul.tags li a:hover {
     .tecnologias {
         width: 260px;
     }
+
     .card-user {
         width: 310px;
         flex-direction: column;
     }
-    .seccion-mascoters{
+
+    .seccion-mascoters {
         width: 100%;
     }
 }
