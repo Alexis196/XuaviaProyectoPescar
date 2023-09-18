@@ -200,6 +200,7 @@ p {
     width: 70%;
     margin: 0;
     padding: .5rem;
+    text-align: start;
 }
 
 /* --------footer-------- */
@@ -500,7 +501,7 @@ h2 {
 
 p {
 
-    text-align: justify;
+    text-align: start;
     margin-left: 2%;
     margin-right: 2%;
 
@@ -576,6 +577,11 @@ p {
     }
 
     footer {
+        justify-content: center;
+    }
+}
+@media(max-width: 741px) {
+    .seccion-mascoter {
         justify-content: center;
     }
 }
