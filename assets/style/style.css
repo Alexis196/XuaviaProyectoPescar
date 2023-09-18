@@ -592,7 +592,7 @@ p {
     }
 
     .todas-tarjetas {
-        flex-direction: row;
+        align-content: center;
         flex-wrap: wrap;
     }
 
