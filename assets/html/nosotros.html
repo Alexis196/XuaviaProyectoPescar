@@ -33,14 +33,39 @@
                             <a class="nav-link" href="./nosotros.html">Nosotros</a>
                         </li>
                     </ul>
-                    <button class="btn-login">Iniciar sesión</button>
+                    <button id="login" class="btn-login">Iniciar sesión</button>
+                    <button class="no-logout" id="logout">Cerrar sesión</button>
                 </div>
             </div>
         </nav>
     </header>
     <main>
+        <div class="no-modal" id="login-modal">
+            <div class="login-box">
+                <span class="close-modal">X</span>
+                <h2>Login</h2>
+                <form id="form-login">
+                    <div class="user-box">
+                        <input type="email" name="" required="">
+                        <label>Email</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="" required="">
+                        <label>Contaseña</label>
+                    </div>
+                    <div class="register">
+                        <span>¿No tienes una cuenta?</span>
+                        <a class="btn-register" href="./assets/html/nosotros.html">Registrate</a>
+                    </div>
+                    <button class="btn-login btn-login2" type="submit">
+                        Iniciar sesión
+                    </button>
+                </form>
+            </div>
+        </div>
         <div class="banner">
-            <img class="banner-img" src="../img/corgi-4415649_1280.jpg" alt="perrito-banner" style="width: 100%;  height: 100%;">
+            <img class="banner-img" src="../img/corgi-4415649_1280.jpg" alt="perrito-banner"
+                style="width: 100%;  height: 100%;">
             <h1 class="title-nosotros">Nosotros</h1>
         </div>
         <div class="nos">
@@ -74,13 +99,6 @@
             </p>
         </div>
         <div class="comunidad">
-            <h2>Únete a Nuestra Comunidad</h2>
-            <p>¿Eres un amante de las mascotas que quiere lo mejor para sus amigos peludos? ¡Entonces estás en el lugar
-                correcto! Únete a nuestra comunidad de amantes de mascotas y comienza a explorar una experiencia única
-                en la que el bienestar de tus mascotas es nuestra principal prioridad.
-            </p>
-        </div>
-        <div class="pasos">
             <h2>¿Cómo Puedes Participar?
             </h2>
             <p> <strong> Regístrate:</strong> Crea una cuenta en nuestra plataforma para comenzar a explorar los
@@ -94,6 +112,13 @@
                 adecuado. <br><br>
                 En Xuavia, nuestra pasión por los animales se refleja en cada interacción. ¡Juntos, podemos hacer que el
                 mundo sea un lugar mejor para nuestras queridas mascotas!
+            </p>
+        </div>
+        <div class="pasos">
+            <h2>Únete a Nuestra Comunidad</h2>
+            <p>¿Eres un amante de las mascotas que quiere lo mejor para sus amigos peludos? ¡Entonces estás en el lugar
+                correcto! Únete a nuestra comunidad de amantes de mascotas y comienza a explorar una experiencia única
+                en la que el bienestar de tus mascotas es nuestra principal prioridad.
             </p>
         </div>
         <div class="contacto">
@@ -169,7 +194,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-    <script src="./assets/js/cards.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
