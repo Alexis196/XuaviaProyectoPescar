@@ -320,7 +320,6 @@ p {
 }
 
 .card-user {
-    padding: .5rem;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -332,7 +331,7 @@ p {
 
 .info-user {
     padding: 10px;
-    width: 60px;
+    width: 100px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -343,6 +342,8 @@ p {
 
 .info-user p {
     margin: 0;
+    padding-left: 5px;
+    font-weight: 700;
 }
 
 .info-user a {
@@ -352,13 +353,16 @@ p {
 }
 
 .foto-perfil {
-    width: 50px;
+    width: 74px;
+    height: 74px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .recomendacion {
     width: 70%;
     margin: 0;
-    padding: .5rem;
+    padding: .5rem 0 .5rem 1rem;
     text-align: start;
 }
 
@@ -404,15 +408,32 @@ footer {
 .equipo {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     color: #fff;
 }
 
-.equipo a {
+.integrante span {
     text-decoration: none;
     color: #fff;
-    font: 20px;
+    font-size: 20px;
     font-weight: 500;
+}
+.integrante{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+.foto-integrante{
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.linkedin{
+    width: 24px;
 }
 
 .form-contact {
